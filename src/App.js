@@ -1,12 +1,16 @@
 import './App.css';
 import Auth from './views/Auth';
+import Header from './components/Header';
+import { BrowserRouter, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h3>This is the app view.</h3>
-      <Auth />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <Auth />
+      </div>
+    </BrowserRouter>
   );
 }
 

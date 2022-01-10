@@ -1,9 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
 body {
-  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #abc6ee;
+  height: 100vh;
 }
 
 .App {
+  font-family: 'Staatliches', cursive;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 50vh;
+  background-color: #f887a0;
+  border-radius: 10px;
+  border: 4px solid white;
+  color: #68141b;
+}
+
+.meme {
+  width: 50vh;
+  margin: 5vh;
+}
+
+.logout-button {
+  border: none;
+  font-size: 2vh;
+  font-family: 'Staatliches', cursive;
+  background-color: #68141b;
+  color: white;
+  text-transform: uppercase;
+  height: 5vh;
+  width: 10vh;
+  margin: 3vh;
 }

@@ -2,4 +2,9 @@
   display: flex;
   gap: 4vw;
   margin: 2vw;
+  font-size: 5vh;
+}
+
+.Header span.active {
+  border-bottom: 4px solid white;
 }

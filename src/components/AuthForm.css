@@ -1,5 +1,30 @@
 .AuthForm {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1vh;
+  font-size: 2.5vh;
+}
+
+.text-input {
+  border: none;
+  height: 2.5vh;
+  width: 25vh;
+}
+
+.button {
+  border: none;
+  font-size: 2vh;
+  font-family: 'Staatliches', cursive;
+  background-color: #68141b;
+  color: white;
+  text-transform: uppercase;
+  height: 4vh;
+  width: 8vh;
+  margin: 3vh;
+}
+
+.error {
+  font-size: 2vh;
 }

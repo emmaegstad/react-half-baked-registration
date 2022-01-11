@@ -1,5 +1,6 @@
 .Header {
   display: flex;
+  flex-direction: row;
   gap: 3.5vw;
   margin: 2vw;
   font-size: 5vh;

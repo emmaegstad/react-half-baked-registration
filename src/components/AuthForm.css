@@ -9,6 +9,7 @@
 
 .text-input {
   border: none;
+  border-radius: 2px;
   height: 2.5vh;
   width: 25vh;
 }
@@ -23,6 +24,7 @@
   height: 4vh;
   width: 8vh;
   margin: 3vh;
+  border-radius: 2px;
 }
 
 .error {

@@ -1,10 +1,10 @@
 .Header {
   display: flex;
-  gap: 4vw;
+  gap: 3.5vw;
   margin: 2vw;
   font-size: 5vh;
 }
 
-.Header span.active {
+.active {
   border-bottom: 4px solid white;
 }
